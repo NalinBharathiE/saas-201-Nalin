@@ -21,9 +21,9 @@ class Application
    
   end
 
-  def change_dept(student_name, student_department)
+  #def change_dept(student_name, student_department)
   	    
-  end
+  #end
   
   def change_section(student_name, section)
     
