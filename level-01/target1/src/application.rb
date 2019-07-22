@@ -4,7 +4,7 @@ class Application
   attr_accessor :departments
   @department_names
 
-  def initialize
+  def initialize #constructor
     @department_names = ['EEE', 'MECH', 'CSE', 'CIVIL']
     self.departments = @department_names.map { |dept| Department.new dept}
   end
