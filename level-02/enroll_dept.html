@@ -1,0 +1,34 @@
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>College Student Portal</title>
+	<link rel="stylesheet" href="styles/ss1.css">
+	<link rel="shortcut icon" type="image/png" href="images/title_icon.png"/>
+</head>
+<body>
+	<h3>ENROLL INTO A DEPARTMENT</h3>
+	<form accept-charset="utf-8" method="POST" action="./enroll_dept.html" onsubmit="return alert('Enrollment Successful!')">
+		<div class="Input_Section">
+			<div class="option1">
+				<label for="Name">Name:</label>
+			</div>
+			<div>
+				<input type="text" name="Name"> 
+			</div>
+			<div class="option1">
+				<label for="Department">Select Department:</label>
+			</div>
+			<select name="Department">
+				<option value="CSE">CSE</option>
+				<option value="EEE">EEE</option>
+				<option value="MECH">MECH</option>
+				<option value="CIVIL">CIVIL</option>
+			</select>
+		</div>					
+		<div class="EndofSection">
+			<span><a id="goback" href = "index.html">Go Back</a></span>
+			<span><input type="submit" value="Register" class="Submit"></span>
+		</div>
+	</form>
+</body>  
+</html>  

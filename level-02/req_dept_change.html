@@ -1,0 +1,33 @@
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>College Student Portal</title>
+	<link rel="stylesheet" href="styles/ss1.css">
+	<link rel="shortcut icon" type="image/png" href="images/title_icon.png"/>
+</head>
+<body>
+	<h3>REQUEST DEPARTMENT CHANGE</h3>
+	<div class="Input_Section">
+	<form accept-charset="utf-8" method="POST" action="./index.html" onsubmit="return alert('Department Change Successful!')">
+		    <div class="option1">
+				<label for="Name">Roll Number:</label><br>
+			</div>
+			
+				<center><input type="text" name="Name"> </center><br>
+					<div class="option1">
+				<label for="Department">Select Department:</label><br>
+			</div>
+						<center><select name="Department">
+							<option value="CSE">CSE</option>
+							<option value="EEE">EEE</option>
+							<option value="MECH">MECH</option>
+							<option value="CIVIL">CIVIL</option>
+						</select></center>
+	</div>					
+	<div class="EndofSection">
+		<span><a id = "goback" href = "index.html">Go Back</a></span>
+		<span><input type="submit" value="Request" class="Submit"></span>
+		</div>
+	</form>
+</body>  
+</html>  

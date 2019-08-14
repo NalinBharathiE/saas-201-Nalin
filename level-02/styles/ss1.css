@@ -1,0 +1,135 @@
+
+html{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+body {
+
+ background-image: url("../images/background.jpg");
+
+}
+a {
+	text-decoration: none;
+	color: #ebeef0;
+}
+#first_head_tag{
+	font-size: 4.0em;
+	text-align: center;
+	margin-bottom: 0.3em;
+	margin-top: 0.3em;
+	color: 181515;
+}
+
+h2 {
+	border-radius: 10px;
+	font-size: 2.75em;
+	text-align: center;
+	margin:auto;
+	margin-top: 1em;
+	margin-bottom: 1em; 
+	background-color: 1d3fb4;
+	width: 13em;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+}
+
+h3{
+	text-align: center;
+	font-size: 2.2em;
+	margin-top: 2.5em;
+	margin-bottom: 2em; 
+}
+
+h4{
+	text-align: center;
+	font-size: 3.2em;
+	margin-top: 0.5em;
+	margin-bottom: 1em; 
+}
+
+.BackButton:hover{
+	background: rgb(230,230,230);
+}
+
+.BackButton:active{
+	background: rgb(245,245,245);
+}
+
+
+.Submit{
+  background-color: rgb(120,255,120);
+  color: black;
+  padding: 1.0rem 2.0rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  outline: none;
+  word-wrap: break-word;
+  white-space: initial;
+}
+
+.SubmitButton:hover{
+	background: rgb(90,200,90);
+}
+
+.SubmitButton:active{
+	background: rgb(80,210,800);
+}
+
+.Input_Section{
+	text-align: center;
+	font-size: 1.5rem;
+	padding: 0.5rem 0.5rem;
+}
+
+.EndofSection{
+	text-align: right;
+	font-size: 2.1rem;
+	margin: 4.2rem 0.5rem;
+}
+
+input[type=text]{
+	box-sizing: border-box;
+	width: 75%;
+	height: 3.9rem;
+	padding-left: 1.8rem;
+	border: solid 1px;
+	border-color: grey;
+	border-radius: 0.5rem;
+	font-size: 2rem;
+	outline: none;
+	
+}
+
+select{
+	box-sizing: border-box;
+	width: 75%;
+	height: 3.9rem;
+	padding-left: 0.5rem;
+    border: solid 1px;
+	border-color: grey;
+	border-radius: 0.5rem;
+	font-size: 1.5rem;
+	outline: none;
+}
+
+.option1{
+	width: 75%;
+	display: inline-block;
+	align-self: center;
+	text-align: left;
+}
+
+#goback{
+  background-color: lightgrey;
+  color: black;
+  padding: 0.8rem 1.4rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  outline: none;
+  word-wrap: break-word;
+  white-space: initial;
+}
+
+
