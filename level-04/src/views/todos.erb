@@ -1,0 +1,37 @@
+<!-- todos.erb -->
+<header>
+  <div id='header-left'>
+    <h2>Todo List</h2>
+    <h4>Add a Todo!</h4>
+  </div>
+  <div>
+    <form action="/todos" method="POST" class="form">
+      <input type="text" name="title"/>
+      <input type="text" placeholder = "dd/mm/yyyy" name="date"/>
+      <input type="submit"/>
+    </form>
+  </div>
+</header>
+
+<section class='todos-container'>
+  <div class='gallery'>
+    <% @todos.each_with_index do |todo,index| %>
+    	<div class='btn-container'>
+      	
+      	<h2>
+			<a href="/todos/<%= index+1 %>" class="todo-box"><%= todo.keys[0] %></a>
+
+			<% if !(todo.values[0].empty?) %>
+    		Deadline: <%= todo.values[0] %>
+    		<% end %>      
+	  	</h2>
+
+	  		<form method='POST' action='/todos/<%= index + 1 %>'>
+          <input type='hidden' name='_method' value='delete'>
+          <input type='submit' value='Delete'>
+        </form>
+			
+			</div>
+    <% end %>
+  </div>
+</section>
